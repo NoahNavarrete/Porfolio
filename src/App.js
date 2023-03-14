@@ -1,9 +1,15 @@
-
+import NavBar from "./Components/Navbar/navbar";
+import Main from "./Components/Main/Main";
 function App() {
   return (
-    <div className="bg-red-200">
-   <p>hola</p>
-    </div>
+    <body>
+      <header>
+        <NavBar/>
+      </header>
+      <Main/>
+    </body>
+
+    
   );
 }
 
