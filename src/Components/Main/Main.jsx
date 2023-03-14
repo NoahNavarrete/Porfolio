@@ -1,15 +1,16 @@
 import React from "react";
 import SectionME from "./SectionMe";
-import Slider from "./SectionProject";
 import SectionProject from "./SectionProject";
 import SectionTecnologies from "./SectionTecnologies";
+import SectionContactMe from "./SectionContactMe";
 
 function  Main() {
     return(
         <div>
             <SectionME/>
             <SectionTecnologies/>
-            <Slider/>
+            <SectionProject/>
+            <SectionContactMe/>
         </div>
     )
 }
