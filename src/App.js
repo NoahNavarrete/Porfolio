@@ -2,12 +2,12 @@ import NavBar from "./Components/Navbar/navbar";
 import Main from "./Components/Main/Main";
 function App() {
   return (
-    <body>
-      <header>
+      <div>
         <NavBar/>
-      </header>
-      <Main/>
-    </body>
+        <Main/>
+      </div>    
+      
+  
 
     
   );
