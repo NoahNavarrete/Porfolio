@@ -3,10 +3,10 @@ import { Data } from "./SectionTecnologiesData";
 
 function SectionTecnologies(){
     return(
-        <section className="h-screen bg-slate-300 pt-20 flex ">{Data.map(data=> 
-            <div className="h-96 w-60 p-4  bg-purple-200 flex flex-col">
-            <div className="bg-red-200 h-2/3">
-                <img src={data.img}></img>
+        <section className="h-screen bg-slate-300 pt-20 flex flex-wrap justify-center items-center">{Data.map(data=> 
+            <div className="h-[450px] p-4  bg-purple-200 flex flex-col">
+            <div className="bg-blue-200 h-2/3">
+                <img src={data.img} className="bg-none h-full"></img>
             </div>
             <div className="bg-slate-200 flex justify-center">
             <h2>{data.name}</h2>
