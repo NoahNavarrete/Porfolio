@@ -3,7 +3,7 @@ import { data } from "./SectionProjectData"
 import {BsChevronCompactLeft, BsChevronCompactRight} from "react-icons/bs"
 import {RxDotFilled} from "react-icons/rx"
 
-const Slider = () => {
+const SectionProject = () => {
 
     const [currentIndex, setCurrentIndex] = useState(0)
 
@@ -63,4 +63,4 @@ const Slider = () => {
     
     )
 }
-export default Slider
+export default SectionProject;
