@@ -37,17 +37,17 @@ const SectionProject = () => {
     })
 
     return(
-        <section className="h-screen bg-red-200 flex aling-center">
+        <section className="h-screen bg-red-200 flex aling-center w-full">
         <div className={` h-[800px] w-full m-auto py-6 pt-40  group bg-red-300`}>
             <div style={{backgroundImage: `url(${data[currentIndex].url})`}} className={"h-[500px] rounded-2x bg-center bg-cover duration-500"}></div>
            { /*Left Arrow*/}
-           <div className="hidden group-hover:block absolute top-[38%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+           <div className="hidden relative group-hover:block w-12 bottom-60 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
             <BsChevronCompactLeft onClick={prevSlide} size={30}/></div>
            { /*Right Arrow*/}
-           <div className="hidden group-hover:block absolute top-[38%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+           <div className="hidden relative group-hover:block w-12 bottom-72 left-[97%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
             <BsChevronCompactRight onClick={nextSlide} size={30}/>
             </div> 
-            <div className={`flex z-20 absolute top-[560px] right-[50%] left-[50%] justify-center py-2 `}>
+            <div className={`flex z-20 relative justify-center py-2 bottom-36`}>
                 {data.map((slide, slideindex)=>(
                     <div key={slideindex} onClick={() => goToSlide(slideindex)} className="text-2xl flex cursor-pointer">
                         <RxDotFilled className="hidden group-hover:block text-purple-500 hover:scale-150"/>
