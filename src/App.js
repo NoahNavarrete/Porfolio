@@ -6,12 +6,14 @@ import "./App.css"
 function App() {
   return (
       
-     <div>
+     <div className="flex justify-center">
       <NavBar/>
+      <div className="flex row box-border w-[1500px]">
       <Main/>
       <Footer/>
-      
 
+      </div>
+      
      </div>
      
       
