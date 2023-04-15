@@ -37,7 +37,7 @@ const SectionProject = () => {
     })
 
     return(
-        <section className="h-screen bg-red-200 flex aling-center w-full">
+        <section id="Projects" className="h-screen bg-red-200 flex aling-center w-full">
         <div className={` h-[800px] w-full m-auto py-6 pt-40  group bg-red-300`}>
             <div style={{backgroundImage: `url(${data[currentIndex].url})`}} className={"h-[500px] rounded-2x bg-center bg-cover duration-500"}></div>
            { /*Left Arrow*/}

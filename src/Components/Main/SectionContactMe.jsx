@@ -5,7 +5,7 @@ import rocketImg from "..//../assets/Rocket.png"
 function SectionContactMe () {
 
     return(
-        <section className="w-screen">
+        <section id="ContactMe" className="w-screen">
             <div className="container mt-3">
                 <div className="row">
                     <div className="col md-5">

@@ -1,18 +1,18 @@
 import React from "react";
-import SectionME from "./SectionMe";
+import SectionMe from "./SectionMe";
 import SectionProject from "./SectionProject";
 import SectionTecnologies from "./SectionTecnologies";
 import SectionContactMe from "./SectionContactMe";
 
-function  Main() {
+function Main () {
     return(
-        <div>
-            <SectionME/>
-            <SectionTecnologies/>
-            <SectionProject/>
-            <SectionContactMe/>
-        </div>
+        <>
+        <SectionMe/>
+        <SectionTecnologies/>
+        <SectionProject/>
+        <SectionContactMe/>
+        </>
     )
 }
 
-export default Main;
+export default Main

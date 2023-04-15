@@ -1,7 +1,7 @@
 import React from "react";
-import Me from "./Img/Me.jpg";
+import Me from "./Img/Me.png";
 
-function SectionME() {
+function SectionMe() {
     return(
         <div id="About" className="flex flex-wrap min-h-screen  bg-green-200 gap-10 justify-center items-center pt-12 w-screen">
            <img src={Me} alt="Me" className="max-h-[700px] min-h-[100px] " />
@@ -16,4 +16,4 @@ function SectionME() {
     )
 }
 
-export default SectionME;
+export default SectionMe;
