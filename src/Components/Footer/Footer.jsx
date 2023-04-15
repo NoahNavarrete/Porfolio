@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer () {
     return(
-        <footer className="h-[200px] bg-red-200 flex justify-around no-underline">
+        <footer id="Footer" className="h-[200px] bg-red-200 flex justify-around no-underline">
             <div className="bg-green-200 flex flex-col no-underline">
                 <h2>Menu</h2>
                 <a href="" className="no-underline"> About</a>
