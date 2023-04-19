@@ -1,27 +1,49 @@
 import React from "react";
+import * as  styles from "./Styles"
+import {faGithub, faLinkedin, faInstagram} from "@fortawesome/free-brands-svg-icons"
+
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook } from '@fortawesome/free-solid-svg-icons'
+import { Icon } from "./Icon";
 
 function Footer () {
     return(
-        <footer id="Footer" className="h-[200px] bg-red-200 flex justify-around no-underline">
-            <div className="bg-green-200 flex flex-col no-underline">
+        <footer id="Footer" className="h-auto text-white bg-sky-600 flex flex-col sm:flex-row flex-wrap justify-around no-underline">
+
+            <div className="h-auto justify-around  flex flex-col sm:flex-row sm:w-full gap-6 sm:justify-around flex-wrap no-underline">
+            <div className={styles.div}>
                 <h2>Menu</h2>
-                <a href="" className="no-underline"> About</a>
-                <a href="" className="no-underline"> Tecnologies</a>
-                <a href="" className="no-underline"> Project</a>
+                <a href="#About" className={styles.a}> About</a>
+                <a href="#Tech" className={styles.a}> Technologies</a>
+                <a href="#Projects" className={styles.a}> Projects</a>
                 
             </div>
-            <div className="bg-green-300 flex flex-col">
+            <div className={styles.div}>
                 <h2>Contact</h2>
-                <a href="" className="no-underline"> direccion</a>
-                <a href="" className="no-underline"> email</a>
+                <p className={styles.a}> Buenos Aires Argentina</p>
+                <p  className={styles.a}> noenavarre71@outlook.com</p>
+                <p  className={styles.a}> noenavarrete71@gmail.com</p>
                 
             </div>
-            <div className="bg-green-600 flex flex-col">
-                <h2>Redes</h2>
-                <a href=""className="no-underline">Linkedin</a>
-                <a href=""className="no-underline">instagram</a>
-                <a href=""className="no-underline">github</a>
-                <a href=""className="no-underline">Facebook</a>
+            <div className={styles.div2}>
+    
+                <div className={styles.div3}>
+
+                <a href="https://www.linkedin.com/in/noe-navarrete/"className={styles.a}>
+                    <Icon css={styles.icon} icon={faLinkedin}/>
+                </a>
+
+                <a href="https://github.com/NoahNavarrete"className={styles.a} >
+                    <Icon css={styles.icon} icon={faGithub}/>
+                </a>
+                <a href="https://www.instagram.com/noah.navarrete/"className={styles.a}>
+                <Icon css={styles.icon} icon={faInstagram}/>
+
+
+                </a>
+                </div>
+            </div>
+
             </div>
 
 

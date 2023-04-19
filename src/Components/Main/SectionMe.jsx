@@ -1,17 +1,40 @@
 import React from "react";
 import Me from "./Img/Me.png";
+import cloud from "../../assets/cloud.png"
 
 function SectionMe() {
     return(
-        <div id="About" className="flex flex-wrap min-h-screen  bg-green-200 gap-10 justify-center items-center pt-12 w-screen">
-           <img src={Me} alt="Me" className="max-h-[700px] min-h-[100px] " />
-           <div className="bg-red-200 h-auto max-w-lg sm:pt-48 max- box-border">
+        <div id="About" className="flex flex-wrap box-border min-h-screen sm:gap-20 justify-center items-center pt-2 w-screen">
+            
+            <div className="w-full flex justify-between ">
+                <img src={cloud} className="h-20 sm:h-48" alt="" />
+                <p className="flex text-5xl transition-all duration-700  shadow-sm hover:scale-125 border-4 bg-[#0e0e58] border-[#f0f0ff] rounded-lg mt-28 sm:text-6xl text-white">About</p>
+                <img src={cloud} className="h-20 sm:h-48" alt="" />
+            </div>
+           <img src={Me} alt="Me" className="hover:scale-125 hover:rotate-3  min-h-[100px] " />
+
+
+
+           <div className=" h-auto max-w-3xl p-5 mb-20 mt-3 sm:pt-48 box-border border-8 text-white hover:rotate-3 border-[#f0f0ff] rounded-3xl">
+            <div className="mb-10 ">
             <h1 className="pb-2">Hi, I´m Noé Navarrete</h1>
             <h2>Web Developer</h2>
+
+            </div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, ea odit? Nam doloremque porro voluptates asperiores ipsam ducimus modi reprehenderit illum inventore exercitationem dignissimos, atque incidunt, est dolor. Dolorum, atque?
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo delectus, perspiciatis iste similique nam! Ducimus maiores esse molestias! Cum iure impedit enim aliquam nulla quo repudiandae laudantium fugit maxime?
             </p>
-           </div>
+            </div>
+            <div className="box-border w-screen h-20 sm:h-48 flex justify-between">
+                <img className="h-50 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
+                <img className="h-50 transition-all duration-500 hover:scale-125"src={cloud} alt="" />
+                <img className="h-50 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
+                <img className="h-50 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
+                <img className="h-50 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
+            </div>
+            
+       
+           
         </div>
     )
 }

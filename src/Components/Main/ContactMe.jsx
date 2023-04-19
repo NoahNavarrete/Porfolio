@@ -47,7 +47,7 @@ export const ContactMe = () => {
 >
         { formik =>
            ( <div>
-                <h1 className="my-4 font-weight-bold-display-4">Contact me</h1>
+                <h1 className="my-1 font-weight-bold-display-4 text-white">Contact me</h1>
                 <Form onSubmit={sendEmail} ref={form}>
                 <TextField label="Enter your name" name="name" type="text"/>
                 <TextField label="Enter your email" name="email" type="email"/>
