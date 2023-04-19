@@ -6,9 +6,9 @@ import "./App.css"
 function App() {
   return (
       
-     <div className="flex justify-center">
+     <div className="flex justify-center bg-[#0e0e58]  ">
       <NavBar/>
-      <div className="flex row box-border w-[1500px]">
+      <div className="flex row box-border xl:w-[1500px] bg-gradient-to-l from-cyan-500 to-blue-500">
       <Main/>
       <Footer/>
 
