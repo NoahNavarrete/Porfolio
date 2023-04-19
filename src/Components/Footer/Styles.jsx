@@ -6,7 +6,7 @@ export const div2 =" flex flex-col flex-center no-underline self-center"
 
 export const div3 = "flex flex-col gap-2 sm:flex-row max-w-96 w-80 justify-around"
 
-export const footer ="pt-2 h-auto flex flex-row flex-wrap justify-around no-underline"
+export const footer ="pt-2 h-auto flex flex-row flex-wrap box-border justify-around no-underline"
 
 export const icon = "text-7xl"
 
