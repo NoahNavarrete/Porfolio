@@ -40,7 +40,7 @@ const SectionProject = () => {
     return(
         <section className=" h-screen ">
             <div className="w-full pt-20 flex justify-center">
-                <p className="flex text-5xl transition-all duration-700 mb-4 shadow-sm hover:scale-125 border-4 bg-[#0e0e58] border-[#f0f0ff] rounded-lg p-2 text-2xl sm:text-6xl text-white ">Projects</p>
+                <p className="flex transition-all duration-700 mb-4 shadow-sm hover:scale-125 border-4 bg-[#0e0e58] border-[#f0f0ff] rounded-lg p-2 text-2xl sm:text-6xl text-white ">Projects</p>
             
             </div>
         <section id="Projects" className=" flex flex-row aling-center w-full">
