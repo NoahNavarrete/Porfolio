@@ -21,8 +21,8 @@ function SectionMe() {
             <h2>Web Developer</h2>
 
             </div>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, ea odit? Nam doloremque porro voluptates asperiores ipsam ducimus modi reprehenderit illum inventore exercitationem dignissimos, atque incidunt, est dolor. Dolorum, atque?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nemo delectus, perspiciatis iste similique nam! Ducimus maiores esse molestias! Cum iure impedit enim aliquam nulla quo repudiandae laudantium fugit maxime?
+            <p>I'm from Buenos Aires, Argentina. I am 23 years old! I am apassionat about technologies and learning new things.<br></br> I have taken a course about python "from cero to expert" in Udemy and now i'm finishing one about Developer Web Full Stack in <a href="https://academianumen.com/desarrollo-web-full-stack/"
+            target="_blank" rel="noopener noreferrer"  className="no-underline">Academia Numen</a>
             </p>
             </div>
             <div className="box-border w-screen h-20 sm:h-48 flex justify-between">
