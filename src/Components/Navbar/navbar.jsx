@@ -19,7 +19,7 @@ function NavBar() {
                  smooth={true}
                  offset={0}
                  duration={500}
-                 >Inicio</Link>
+                 >Home</Link>
                 </div>
                 <div className="sm:hidden pr-4 flex self-center ">
                     <button className="" onClick={()=> setOpen(!open)}>
@@ -41,7 +41,7 @@ function NavBar() {
                         smooth={true}
                         offset={0}
                         duration={500}
-                        >Tecnoligies</Link>
+                        >Technoligies</Link>
                         </li>
                     <li className={styles.li}>
                         <Link to={"Projects"} href="#Projects" className={styles.a}

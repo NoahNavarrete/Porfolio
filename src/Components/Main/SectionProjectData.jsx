@@ -4,7 +4,7 @@ import eco from "./Img/eco.png"
 export const data = [
     {
         url: `${juego}`,
-        link:"https://www.clarin.com/"
+        link:"https://github.com/NoahNavarrete/Game-python"
     },
     {
         url: `${eco}`,
