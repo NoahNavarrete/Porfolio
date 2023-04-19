@@ -1,10 +1,6 @@
 import React from "react";
 import * as  styles from "./Styles"
 import {faGithub, faLinkedin, faInstagram} from "@fortawesome/free-brands-svg-icons"
-<<<<<<< HEAD
-
-=======
->>>>>>> noah
 import { Icon } from "./Icon";
 
 function Footer () {
