@@ -1,12 +1,15 @@
 import React from "react";
 import * as  styles from "./Styles"
 import {faGithub, faLinkedin, faInstagram} from "@fortawesome/free-brands-svg-icons"
+<<<<<<< HEAD
 
+=======
+>>>>>>> noah
 import { Icon } from "./Icon";
 
 function Footer () {
     return(
-        <footer id="Footer" className="h-auto text-white bg-sky-600 flex flex-col sm:flex-row flex-wrap justify-around no-underline">
+        <footer id="Footer" className="h-auto  text-white bg-sky-600 flex flex-col sm:flex-row flex-wrap justify-around no-underline">
 
             <div className="h-auto justify-around  flex flex-col sm:flex-row sm:w-full gap-6 sm:justify-around flex-wrap no-underline">
             <div className={styles.div}>

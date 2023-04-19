@@ -38,8 +38,8 @@ const SectionProject = () => {
     })
 
     return(
-        <section className=" h-screen ">
-            <div className="w-full pt-20 flex justify-center">
+        <section className=" h-auto flex flex-col box-border">
+            <div className="w-full pt-20 flex h-auto justify-center">
                 <p className="flex transition-all duration-700 mb-4 shadow-sm hover:scale-125 border-4 bg-[#0e0e58] border-[#f0f0ff] rounded-lg p-2 text-2xl sm:text-6xl text-white ">Projects</p>
             
             </div>
@@ -49,16 +49,16 @@ const SectionProject = () => {
            
             <div style={{backgroundImage: `url(${data[currentIndex].url})`}} className={"h-[500px] rounded-2x bg-center bg-cover duration-500"}></div>
            { /*Left Arrow*/}
-           <div className="hidden relative group-hover:block w-12 bottom-60 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+           <div className="hidden relative group-hover:block w-12 bottom-[243px] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
             <BsChevronCompactLeft onClick={prevSlide} size={30}/></div>
            { /*Right Arrow*/}
-           <div className="hidden relative group-hover:block w-12 bottom-72 left-[97%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+           <div className="hidden relative group-hover:block w-12 bottom-[288px] left-[90%] sm:left-[97%] text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
             <BsChevronCompactRight onClick={nextSlide} size={30}/>
             </div> 
             <div className={`flex z-20 relative justify-center py-2 bottom-36`}>
                
             <BsArrowUpRightSquare onClick={()=>{window.open(`${data[currentIndex].link}`)}}
-             className=" z-10 relative hidden group-hover:block  bottom-12 left-[600px] text-6xl right-28 text-sky-400 active:bg-slate-300"/>
+             className=" z-10 relative hidden group-hover:block bottom-8 left-[150px] text-6xl right-28 text-sky-400 active:bg-slate-300"/>
                     
               
                 {data.map((slide, slideindex)=>(
