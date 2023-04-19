@@ -5,13 +5,13 @@ import rocketImg from "..//../assets/Rocket.png"
 function SectionContactMe () {
 
     return(
-        <section id="ContactMe" className="w-screen">
-            <div className=" flex justify-center">
+        <section id="ContactMe" className="s">
+            <div className=" flex justify-center box-border">
             <p className="flex text-5xl transition-all duration-700 shadow-sm hover:scale-125 border-4 bg-[#0e0e58] border-[#f0f0ff] rounded-lg sm:text-6xl  text-white">Contact</p>
             </div>
             
-            <div className="container">
-                <div className="col sm:flex sm:flex-row  ">
+            <div className="container flex flex-wrap ">
+                <div className=" flex flex-col sm:flex sm:flex-row  ">
                     <div className="col md-5">
                         <ContactMe />
                     </div>
