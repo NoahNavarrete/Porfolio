@@ -1,22 +1,15 @@
 import React from "react";
+import juego from "./Img/Juego.png"
+import eco from "./Img/eco.png"
 
 export const data = [
     {
-        url: "https://i.imgur.com/sucfZyg.jpg"
+        url: `${juego}`,
+        link:"https://www.clarin.com/"
     },
     {
-        url: "https://i.imgur.com/OMySrgM.jpg"
+        url: `${eco}`,
+        link:"https://proyecto-numen-git-dev-joaco-joakolp.vercel.app/"
     },
-    {
-        url: "https://i.imgur.com/lX9BN6y.jpg"
-    },
-    {
-        url: "https://i.imgur.com/KlR7Q9r.jpg"
-    },
-    {
-        url: "https://i.imgur.com/LOwQzXr.png"
-    },
-    {
-        url: "https://i.imgur.com/cdgxRxF.jpg"
-    },
+  
 ];

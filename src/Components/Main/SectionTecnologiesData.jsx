@@ -5,6 +5,7 @@ import react from "./Img/React.png"
 import tailwind from "./Img/Tailwind.png"
 import python from "./Img/Python.png"
 import bootstrap from "./Img/Bootstrap.png"
+import node from "./Img/node.png"
 export const Data =[
     {
         id: 1,
@@ -76,6 +77,17 @@ export const Data =[
         id: 7,
         name: "Bootstrap",
         img: `${bootstrap}`,
+        desc: {
+            desc1: "Etiquetas",
+            desc2: "opcion 2",
+            desc3: "opcion 3"
+        }
+
+    },
+    {
+        id: 8,
+        name: "Node Js",
+        img: `${node}`,
         desc: {
             desc1: "Etiquetas",
             desc2: "opcion 2",
