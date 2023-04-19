@@ -18,7 +18,7 @@ function Footer () {
             <div className={styles.div}>
                 <h2>Contact</h2>
                 <p className={styles.a}> Buenos Aires Argentina</p>
-                <p  className={styles.a}> noenavarre71@outlook.com</p>
+                <p  className={styles.a}> noenavarretr71@outlook.com</p>
                 <p  className={styles.a}> noenavarrete71@gmail.com</p>
                 
             </div>
