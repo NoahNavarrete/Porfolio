@@ -1,4 +1,3 @@
-import React from "react";
 import juego from "./Img/Juego.png"
 import eco from "./Img/eco.png"
 

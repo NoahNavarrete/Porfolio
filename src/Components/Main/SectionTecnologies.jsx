@@ -24,11 +24,11 @@ function SectionTecnologies(){
 )}
 </div>
   <div className="box-border w-screen h-20 sm:h-48 flex justify-between">
-                <img className="h-50 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
-                <img className="h-50 transition-all duration-500 hover:scale-125"src={cloud} alt="" />
-                <img className="h-50 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
-                <img className="h-50 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
-                <img className="h-50 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
+                <img className="h-50 transition-all duration-500 hover:scale-125" src={cloud} alt="cloud" />
+                <img className="h-50 transition-all duration-500 hover:scale-125"src={cloud} alt="cloud" />
+                <img className="h-50 transition-all duration-500 hover:scale-125" src={cloud} alt="cloud" />
+                <img className="h-50 transition-all duration-500 hover:scale-125" src={cloud} alt="cloud" />
+                <img className="h-50 transition-all duration-500 hover:scale-125" src={cloud} alt="cloud" />
             </div>
           
         </section>
