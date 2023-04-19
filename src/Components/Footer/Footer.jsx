@@ -1,9 +1,6 @@
 import React from "react";
 import * as  styles from "./Styles"
 import {faGithub, faLinkedin, faInstagram} from "@fortawesome/free-brands-svg-icons"
-
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faFacebook } from '@fortawesome/free-solid-svg-icons'
 import { Icon } from "./Icon";
 
 function Footer () {
