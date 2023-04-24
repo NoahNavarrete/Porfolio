@@ -5,11 +5,11 @@ import { Icon } from "./Icon";
 
 function Footer () {
     return(
-        <footer id="Footer" className="h-auto  text-white bg-sky-600 flex flex-col sm:flex-row flex-wrap justify-around no-underline">
+        <footer id="Footer" className="h-auto  w-screen text-white bg-sky-600 flex flex-col sm:flex-row flex-wrap justify-around no-underline">
 
-            <div className="h-auto justify-around  flex flex-col sm:flex-row sm:w-full gap-6 sm:justify-around flex-wrap no-underline">
+            <div className="h-auto w-full justify-around  flex flex-col sm:flex-row sm:w-full sm:gap-6 sm:justify-around flex-wrap no-underline">
             <div className={styles.div}>
-                <h2>Menu</h2>
+                <h2 className="">Menu</h2>
                 <a href="#About" className={styles.a}> About</a>
                 <a href="#Tech" className={styles.a}> Technologies</a>
                 <a href="#Projects" className={styles.a}> Projects</a>

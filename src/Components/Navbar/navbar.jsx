@@ -13,7 +13,7 @@ function NavBar() {
 
 
     return(
-        <nav className="fixed z-50 sm:justify-between flex w-screen h-16 bg-sky-600 justify-between text-white shadow-lg shadow-black ">
+        <nav className=" absolute sm:fixed z-50 sm:justify-between flex w-screen h-16 bg-sky-600 justify-between text-white shadow-lg shadow-black ">
             <div className="flex items-center w-1/6 justify-evenly">
                 <Link to={"About"} href="#About" className={styles.a} 
                  smooth={true}
