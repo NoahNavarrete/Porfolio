@@ -1,5 +1,6 @@
 import juego from "./Img/Juego.png"
 import eco from "./Img/eco.png"
+import calculator from  "./Img/calculator.png"
 
 export const data = [
     {
@@ -9,6 +10,10 @@ export const data = [
     {
         url: `${eco}`,
         link:"https://proyecto-numen-git-dev-joaco-joakolp.vercel.app/"
+    },
+    {
+        url: `${calculator}`,
+        link:"https://calculator-noahnavarrete.vercel.app/"
     },
   
 ];
