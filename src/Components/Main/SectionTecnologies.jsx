@@ -5,7 +5,7 @@ import cloud from "../../assets/cloud.png"
 function SectionTecnologies(){
     return(
 
-        <section id="Tech" className="box-border font-serif h-auto sm:pt-20 flex flex-wrap justify-center items-center cursor-default ">
+        <section id="Tech" className="overflow-hidden box-border font-serif h-auto sm:pt-20 flex flex-wrap justify-center items-center cursor-default ">
             <h2 className="flex text-4xl sm:text-5xl transition-all duration-700  shadow-sm hover:scale-125 border-4 border-[#f0f0ff] rounded-lg p-2 bg-[#0e0e58] text-white" >Technologies</h2>
             <div className="flex flex-wrap justify-center items-center ">
 
@@ -23,7 +23,7 @@ function SectionTecnologies(){
 
 )}
 </div>
-<div className="box-border flex-wrap w-full max-h-20 sm:h-48 flex justify-between">
+<div className="box-border sm:mb-4 mb-2 flex-wrap w-full max-h-20 sm:h-48 flex justify-between">
                 <img className=" max-h-10 sm:max-h-20 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
                 <img className=" max-h-10 sm:max-h-20 transition-all duration-500 hover:scale-125"src={cloud} alt="" />
                 <img className=" max-h-10 sm:max-h-20 transition-all duration-500 hover:scale-125" src={cloud} alt="" />

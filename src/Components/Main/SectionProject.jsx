@@ -38,7 +38,7 @@ const SectionProject = () => {
     })
 
     return(
-        <section className=" h-auto flex flex-col box-border">
+        <section className=" h-auto flex flex-col box-border overflow-hidden">
             <div className="w-full pt-20 flex h-auto justify-center">
                 <p className="flex transition-all duration-700 mb-4 shadow-sm hover:scale-125 border-4 bg-[#0e0e58] border-[#f0f0ff] rounded-lg p-2 text-2xl sm:text-6xl text-white ">Projects</p>
             
@@ -72,7 +72,7 @@ const SectionProject = () => {
         </div>
 </section>
       
-<div className="box-border flex-wrap w-full max-h-20 sm:h-48 flex justify-between">
+<div className="box-border sm:mb-4 mb-2 flex-wrap w-full max-h-20 sm:h-48 flex justify-between">
                 <img className=" max-h-10 sm:max-h-20 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
                 <img className=" max-h-10 sm:max-h-20 transition-all duration-500 hover:scale-125"src={cloud} alt="" />
                 <img className=" max-h-10 sm:max-h-20 transition-all duration-500 hover:scale-125" src={cloud} alt="" />

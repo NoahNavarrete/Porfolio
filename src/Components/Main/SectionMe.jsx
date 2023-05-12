@@ -4,7 +4,7 @@ import cloud from "../../assets/cloud.png"
 
 function SectionMe() {
     return(
-        <div id="About" className=" flex flex-wrap min-h-screen pt-16 sm:gap-20 justify-center items-center sm:pt-2 w-screen">
+        <div id="About" className=" overflow-hidden flex flex-wrap min-h-screen pt-16 sm:gap-20 justify-center items-center sm:pt-2 w-screen">
             
             <div className=" flex w-full justify-between ">
                 <img src={cloud} className="h-10 sm:h-48 transition-all duration-500 active:scale-125 sm:hover:scale-125" alt="" />
@@ -25,7 +25,7 @@ function SectionMe() {
             target="_blank" rel="noopener noreferrer"  className="no-underline">Academia Numen</a>
             </p>
             </div>
-            <div className="box-border flex-wrap w-full max-h-20 sm:h-48 flex justify-between">
+            <div className="box-border sm:mb-4 mb-2 flex-wrap w-full max-h-20 sm:h-48 flex justify-between">
                 <img className=" max-h-10 sm:max-h-20 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
                 <img className=" max-h-10 sm:max-h-20 transition-all duration-500 hover:scale-125"src={cloud} alt="" />
                 <img className=" max-h-10 sm:max-h-20 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
