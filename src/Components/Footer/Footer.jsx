@@ -9,14 +9,14 @@ function Footer () {
 
             <div className="h-auto w-full justify-around  flex flex-col sm:flex-row sm:w-full sm:gap-6 sm:justify-around flex-wrap no-underline">
             <div className={styles.div}>
-                <h2 className="">Menu</h2>
+                <h2 className=" self-center">Menu</h2>
                 <a href="#About" className={styles.a}> About</a>
                 <a href="#Tech" className={styles.a}> Technologies</a>
                 <a href="#Projects" className={styles.a}> Projects</a>
                 
             </div>
             <div className={styles.div}>
-                <h2>Contact</h2>
+                <h2 className="self-center">Contact</h2>
                 <p className={styles.a}> Buenos Aires Argentina</p>
                 <p  className={styles.a}> noenavarrete71@outlook.com</p>
                 <p  className={styles.a}> noenavarrete71@gmail.com</p>

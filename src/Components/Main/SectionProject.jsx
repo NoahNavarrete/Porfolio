@@ -73,11 +73,11 @@ const SectionProject = () => {
 </section>
       
 <div className="box-border flex-wrap w-full max-h-20 sm:h-48 flex justify-between">
-                <img className=" max-h-10 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
-                <img className=" max-h-10 transition-all duration-500 hover:scale-125"src={cloud} alt="" />
-                <img className=" max-h-10 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
-                <img className=" max-h-10 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
-                <img className=" max-h-10 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
+                <img className=" max-h-10 sm:max-h-20 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
+                <img className=" max-h-10 sm:max-h-20 transition-all duration-500 hover:scale-125"src={cloud} alt="" />
+                <img className=" max-h-10 sm:max-h-20 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
+                <img className=" max-h-10 sm:max-h-20 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
+                <img className=" max-h-10 sm:max-h-20 transition-all duration-500 hover:scale-125" src={cloud} alt="" />
             </div>
             
         </section>
