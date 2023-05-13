@@ -1,6 +1,7 @@
 import juego from "./Img/Juego.png"
 import eco from "./Img/eco.png"
 import calculator from  "./Img/calculator.png"
+import dino from "./Img/Dino.png"
 
 export const data = [
     {
@@ -14,6 +15,10 @@ export const data = [
     {
         url: `${calculator}`,
         link:"https://calculator-noahnavarrete.vercel.app/"
+    },
+    {
+        url: `${dino}`,
+        link:"https://dino-chrome-rho.vercel.app/"
     },
   
 ];

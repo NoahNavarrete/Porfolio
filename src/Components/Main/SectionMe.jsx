@@ -9,7 +9,7 @@ function SectionMe() {
             <div className=" flex w-full justify-between ">
                 <img src={cloud} className="h-10 sm:h-48 transition-all duration-500 active:scale-125 sm:hover:scale-125" alt="" />
                 <p className="flex text-5xl transition-all duration-700  shadow-sm active:scale-15  sm:hover:scale-125 border-4 bg-[#0e0e58] border-[#f0f0ff] rounded-lg mt-28 sm:text-6xl text-white">About</p>
-                <img src={cloud} className=" h-10 sm:h-48 transition-all duration-500 hover:scale-125" alt="" />
+                <img src={cloud} className=" h-10 sm:h-48 transition-all duration-500 active:scale-125 sm:hover:scale-125" alt="" />
             </div>
            <img src={Me} alt="Me" className="hover:scale-125 hover:rotate-3  min-h-[50px] " />
 

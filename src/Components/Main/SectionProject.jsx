@@ -25,7 +25,7 @@ const SectionProject = () => {
     }
     useEffect(() => {
         const interval = setTimeout(()=>{
-            if(currentIndex ===2){
+            if(currentIndex ===3){
                 setCurrentIndex(0)
             }else{
                 setCurrentIndex(currentIndex +1)
