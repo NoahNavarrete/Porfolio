@@ -58,7 +58,7 @@ const SectionProject = () => {
             <div className={`flex z-20 relative justify-center py-2 bottom-36`}>
                
             <BsArrowUpRightSquare onClick={()=>{window.open(`${data[currentIndex].link}`)}}
-             className=" z-10 relative hidden group-hover:block bottom-8 left-[190px] text-6xl right-28 text-sky-100 active:bg-slate-300"/>
+             className=" z-10 relative cursor-pointer hidden group-hover:block bottom-8 left-[190px] text-6xl right-28 text-sky-100 active:bg-slate-300"/>
                     
               
                 {data.map((slide, slideindex)=>(
