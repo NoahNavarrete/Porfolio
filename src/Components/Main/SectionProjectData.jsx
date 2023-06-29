@@ -2,6 +2,7 @@ import juego from "./Img/Juego.png"
 import eco from "./Img/eco.png"
 import calculator from  "./Img/calculator.png"
 import dino from "./Img/Dino.png"
+import cart from "./Img/cart.png"
 
 export const data = [
     {
@@ -20,5 +21,9 @@ export const data = [
         url: `${dino}`,
         link:"https://dino-chrome-rho.vercel.app/"
     },
+    {
+        url: `${cart}`,
+        link:"https://shopping-cart-lemon-tau.vercel.app/#"
+    }
   
 ];

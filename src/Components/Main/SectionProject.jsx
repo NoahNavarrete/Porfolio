@@ -25,7 +25,7 @@ const SectionProject = () => {
     }
     useEffect(() => {
         const interval = setTimeout(()=>{
-            if(currentIndex ===3){
+            if(currentIndex === data.length -1){
                 setCurrentIndex(0)
             }else{
                 setCurrentIndex(currentIndex +1)
@@ -58,12 +58,12 @@ const SectionProject = () => {
             <div className={`flex z-20 relative justify-center py-2 bottom-36`}>
                
             <BsArrowUpRightSquare onClick={()=>{window.open(`${data[currentIndex].link}`)}}
-             className=" z-10 relative hidden group-hover:block bottom-8 left-[150px] text-6xl right-28 text-sky-400 active:bg-slate-300"/>
+             className=" z-10 relative hidden group-hover:block bottom-8 left-[190px] text-6xl right-28 text-sky-100 active:bg-slate-300"/>
                     
               
                 {data.map((slide, slideindex)=>(
                     <div key={slideindex} onClick={() => goToSlide(slideindex)} className="text-2xl flex cursor-pointer">
-                        <RxDotFilled className="hidden group-hover:block text-sky-400 hover:scale-150"/>
+                        <RxDotFilled className="hidden group-hover:block text-sky-100 hover:scale-150"/>
                     
                     </div>
 ))}
