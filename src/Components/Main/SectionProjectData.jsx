@@ -3,6 +3,7 @@ import eco from "./Img/eco.png"
 import calculator from  "./Img/calculator.png"
 import dino from "./Img/Dino.png"
 import cart from "./Img/cart.png"
+import mail from "./Img/emails.png"
 
 export const data = [
     {
@@ -24,6 +25,10 @@ export const data = [
     {
         url: `${cart}`,
         link:"https://shopping-cart-lemon-tau.vercel.app/#"
+    },
+    {
+        url: `${mail}`,
+        link:"https://send-mails-simulator.vercel.app/"
     }
   
 ];
