@@ -21,7 +21,8 @@ function SectionMe() {
             <h2>Web Developer</h2>
 
             </div>
-            <p>I'm from Buenos Aires, Argentina. I am 23 years old! I am apassionat about technologies and learning new things.<br></br> I have taken a course about python "from cero to expert" in Udemy and i finished one about Developer Web Full Stack in <a href="https://academianumen.com/desarrollo-web-full-stack/"
+            <p>I'm from Buenos Aires, Argentina. I am 23 years old! I am passionate about technologies and learning new things.<br></br>
+I have taken a course about python "from zero to expert" in Udemy and I finished one about Developer Web Full Stack in  <a href="https://academianumen.com/desarrollo-web-full-stack/"
             target="_blank" rel="noopener noreferrer"  className="no-underline">Academia Numen</a>
             </p>
             </div>
