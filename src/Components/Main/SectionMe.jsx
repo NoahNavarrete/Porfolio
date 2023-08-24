@@ -8,14 +8,14 @@ function SectionMe() {
             
             <div className=" flex w-full justify-between ">
                 <img src={cloud} className="h-10 sm:h-48 transition-all duration-500 active:scale-125 sm:hover:scale-125" alt="" />
-                <p className="flex text-5xl transition-all duration-700  shadow-sm active:scale-15  sm:hover:scale-125 border-4 bg-[#0e0e58] border-[#f0f0ff] rounded-lg mt-28 sm:text-6xl text-white">About</p>
+                <p className="flex text-5xl transition-all duration-700  shadow-sm active:scale-15  sm:hover:scale-125  bg-sky-600/90 p-2 rounded-lg mt-28 sm:text-6xl text-white">About</p>
                 <img src={cloud} className=" h-10 sm:h-48 transition-all duration-500 active:scale-125 sm:hover:scale-125" alt="" />
             </div>
            <img src={Me} alt="Me" className="hover:scale-125 hover:rotate-3  min-h-[50px] " />
 
 
 
-           <div className=" h-auto w-full max-w-3xl sm:p-5 mb-20 mt-3 sm:pt-48 box-border border-8 text-white hover:rotate-3 border-[#f0f0ff] rounded-3xl">
+           <div className=" h-auto w-full max-w-3xl sm:p-5 mb-20 mt-3 sm:pt-48 box-border  text-white hover:rotate-3 rounded-3xl  bg-slate-100/20">
             <div className="mb-10 ">
             <h1 className="pb-2">Hi, I´m Noé Navarrete</h1>
             <h2>Web Developer</h2>

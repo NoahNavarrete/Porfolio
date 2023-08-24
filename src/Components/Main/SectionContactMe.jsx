@@ -7,12 +7,12 @@ function SectionContactMe () {
     return(
         <section id="ContactMe" className=" overflow-hidden">
             <div className=" flex justify-center box-border">
-            <p className="flex text-5xl transition-all duration-700 shadow-sm hover:scale-125 border-4 bg-[#0e0e58] border-[#f0f0ff] rounded-lg sm:text-6xl  text-white">Contact</p>
+            <p className="flex text-5xl transition-all duration-700 shadow-sm hover:scale-125 bg-sky-600/90 p-2 mt-2 rounded-lg sm:text-6xl  text-white">Contact</p>
             </div>
             
             <div className="container flex flex-wrap ">
                 <div className=" flex flex-col sm:flex sm:flex-row  ">
-                    <div className="col md-5">
+                    <div className="col md-5 bg-slate-100/30 p-5 rounded-xl mb-10">
                         <ContactMe />
                     </div>
                     <div className="col md-7 my-auto">

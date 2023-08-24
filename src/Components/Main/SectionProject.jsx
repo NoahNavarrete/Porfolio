@@ -40,7 +40,7 @@ const SectionProject = () => {
     return(
         <section className=" h-auto flex flex-col box-border overflow-hidden">
             <div className="w-full pt-20 flex h-auto justify-center">
-                <p className="flex transition-all duration-700 mb-4 shadow-sm hover:scale-125 border-4 bg-[#0e0e58] border-[#f0f0ff] rounded-lg p-2 text-2xl sm:text-6xl text-white ">Projects</p>
+                <p className="flex transition-all duration-700 mb-4 shadow-sm hover:scale-125 bg-sky-600/90 rounded-lg p-3 text-2xl sm:text-6xl text-white ">Projects</p>
             
             </div>
         <section id="Projects" className=" flex flex-row aling-center w-full">

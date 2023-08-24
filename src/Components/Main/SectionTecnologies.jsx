@@ -5,17 +5,17 @@ import cloud from "../../assets/cloud.png"
 function SectionTecnologies(){
     return(
 
-        <section id="Tech" className="overflow-hidden box-border font-serif h-auto sm:pt-20 flex flex-wrap justify-center items-center cursor-default ">
-            <h2 className="flex text-4xl sm:text-5xl transition-all duration-700  shadow-sm hover:scale-125 border-4 border-[#f0f0ff] rounded-lg p-2 bg-[#0e0e58] text-white" >Technologies</h2>
-            <div className="flex flex-wrap justify-center items-center ">
+        <section id="Tech" className="overflow-hidden  box-border font-serif h-auto sm:pt-20 flex flex-wrap justify-center items-center cursor-default ">
+            <h2 className="flex text-4xl sm:text-5xl transition-all duration-700  shadow-sm hover:scale-125  rounded-lg p-2 bg-sky-600/90  text-white" >Technologies</h2>
+            <div className="flex flex-wrap justify-center items-center m-3 bg-slate-100/30 rounded-2xl ">
 
             {Data.map((data, index)=> 
             <div key={index} className="max-h-[450px] max-w-[300px] transition-all duration-1000 p-4 flex flex-col hover:-translate-y-4">
-            <div className="bg-blue-200 h-full w-full flex flex-wrap shadow-2xl shadow-black border-x-8 border-t-8 hover:bg-blue-300 rounded-tr-2xl rounded-tl-2xl  show border-sky-300 ">
+            <div className="bg-blue-500/50 h-full w-full flex flex-wrap shadow-2xl shadow-black  hover:bg-blue-300 rounded-2xl  show border-sky-300 ">
                 <img src={data.img} alt="Technology" className="bg-none h-full transition-all duration-700 hover:-translate-y-4 hover:scale-[1.1] shodow-4 shadow-slate-800"></img>
             </div>
-            <div className="bg-slate-200 border-b-8 border-x-8 border-sky-300 flex justify-center rounded-br-2xl rounded-bl-2xl">
-            <h2>{data.name}</h2>
+            <div className=" flex justify-center rounded-br-2xl rounded-bl-2xl">
+            <h2 className="text-white">{data.name}</h2>
                
             </div>
             
