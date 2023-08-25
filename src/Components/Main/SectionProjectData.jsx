@@ -1,34 +1,36 @@
-import juego from "./Img/Juego.png"
-import eco from "./Img/eco.png"
-import calculator from  "./Img/calculator.png"
-import dino from "./Img/Dino.png"
-import cart from "./Img/cart.png"
-import mail from "./Img/emails.png"
+import cart from "../../assets/cart.mp4"
+import dino from "../../assets/dino.mp4"
+import calcu from "../../assets/calcu.mp4"
+import group from "../../assets/group.mp4"
+import mail from "../../assets/mails.mp4"
+import game from "../../assets/game.mp4"
 
 export const data = [
     {
-        url: `${juego}`,
+        url: `${game}`,
         link:"https://github.com/NoahNavarrete/Game-python"
     },
     {
-        url: `${eco}`,
+        url: `${group}`,
         link:"https://proyecto-numen-git-dev-joaco-joakolp.vercel.app/"
     },
     {
-        url: `${calculator}`,
-        link:"https://calculator-noahnavarrete.vercel.app/"
+        url: `${cart}`,
+        link:"https://vercel.com/noahnavarrete/shopping-cart/GEK2h7zRoQ5pKhxQVMmMYNvqhRkP"
     },
     {
         url: `${dino}`,
-        link:"https://dino-chrome-rho.vercel.app/"
+        link:"https://dino-chrome-8hkxmffhq-noahnavarrete.vercel.app/"
     },
     {
-        url: `${cart}`,
-        link:"https://shopping-cart-lemon-tau.vercel.app/#"
+        url: `${calcu}`,
+        link:"https://calculator-ten-lyart.vercel.app/"
     },
     {
         url: `${mail}`,
         link:"https://send-mails-simulator.vercel.app/"
     }
+
+
   
 ];
